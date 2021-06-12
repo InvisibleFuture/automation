@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# 注册到全局命令
+# 注册到全局命令(临时)
 # alias todo="sh ~/Desktop/automation/todo.sh"
+# 注册到全局命令(永久)
+# echo 'alias todo="sh ~/Desktop/automation/todo.sh"' >> ~/.bashrc
+# source ~/.bashrc
 
 function show() {
 	# 展示读取的列表
